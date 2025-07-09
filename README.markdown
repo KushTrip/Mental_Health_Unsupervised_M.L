@@ -68,9 +68,9 @@ The project uses the **2016 OSMI Mental Health in Tech Survey** dataset, availab
 ├── data/
 │   └── mental-heath-in-tech-2016_20161114.csv              # Dataset 
 ├── notebooks/
-│   └── mental_health_case_study_KushTrip.ipynb             # Main Jupyter Notebook with all code
+│   └── mental_health_case_study_KushTrip.ipynb             # Main IPYNB file with all code
 ├── outputs/
-│   └── [visualizations]       # Generated plots (e.g., pca_scatterplot.png)
+│   └── [visualizations]       # Generated plots, diagrams, graphs (e.g., elbow method.png)
 └── README.md                  # This file
 ```
 
