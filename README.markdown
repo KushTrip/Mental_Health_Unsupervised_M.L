@@ -12,7 +12,6 @@ This repository contains the code and resources for a case study on applying uns
 ## Table of Contents
 - [Prerequisites](#prerequisites)
 - [Dataset](#dataset)
-- [Installation](#installation)
 - [Running the Code](#running-the-code)
 - [Project Structure](#project-structure)
 - [Results](#results)
