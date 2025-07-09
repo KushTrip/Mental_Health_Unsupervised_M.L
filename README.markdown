@@ -4,8 +4,8 @@
 This repository contains the code and resources for a case study on applying unsupervised machine learning to analyze mental health trends among tech employees, using the 2016 OSMI Mental Health in Tech Survey dataset. The project clusters employees based on mental health and workplace experiences, reduces data dimensionality, and provides actionable HR insights.
 
 **Course:** Machine Learning – Unsupervised Learning (DLBDSMLUSL01)  
-**Author:** [Your Name]  
-**Date:** [Insert Date]
+**Author:** Kush Tripathi  
+**Date:** 09/07/2025
 
 ---
 
@@ -21,11 +21,14 @@ This repository contains the code and resources for a case study on applying uns
 ---
 
 ## Prerequisites
-To run this project, ensure you have the following installed:
+To run this project, 
+Either create an account in GoogleCollab and download the ipynb file and open it in Google collab
+Or
+If you want torun it locally, ensure you have the following installed:
 - Python 3.8 or higher
 - pip (Python package manager)
 - Jupyter Notebook or any Python IDE (e.g., VS Code, PyCharm)
-- Required Python libraries (listed in `requirements.txt`):
+- Required Python libraries :
   - pandas
   - numpy
   - scikit-learn
@@ -39,49 +42,16 @@ The project uses the **2016 OSMI Mental Health in Tech Survey** dataset, availab
 [OSMI Mental Health in Tech Survey](https://www.kaggle.com/osmi/mental-health-in-tech-survey)
 
 ### Steps to Load the Dataset
-1. Download the dataset (`survey.csv`) from the Kaggle link above.
-2. Place the `survey.csv` file in the `data/` folder of this repository.
-3. Ensure the file path in the code (`notebooks/main.ipynb`) points to `data/survey.csv`.
+1. Download the `mental-heath-in-tech-2016_20161114.csv` dataset from this repository or the Kaggle link above.
+2. Note: Ensure the dataset is successfully loaded before running the notebook.
 
----
-
-## Installation
-Follow these steps to set up the project environment:
-
-1. **Clone the Repository**  
-   ```bash
-   git clone [your-repository-url]
-   cd [repository-name]
-   ```
-
-2. **Create a Virtual Environment**  
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. **Install Dependencies**  
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Verify Setup**  
-   Ensure Jupyter Notebook is installed:  
-   ```bash
-   jupyter notebook
-   ```
-
----
 
 ## Running the Code
 1. **Open the Jupyter Notebook**  
-   Launch Jupyter Notebook and navigate to the `notebooks/` folder:  
-   ```bash
-   jupyter notebook
-   ```
+   Open Google Collab website OR Launch Jupyter Notebook 
 
 2. **Run the Main Notebook**  
-   Open `notebooks/main.ipynb` and execute all cells sequentially. The notebook includes:
+   Open `mental_health_case_study_KushTrip.ipynb` and execute all cells sequentially. The notebook includes:
    - Data loading and preprocessing
    - Feature engineering
    - Dimensionality reduction (PCA, MDS)
@@ -92,20 +62,16 @@ Follow these steps to set up the project environment:
 3. **Expected Output**  
    - Visualizations saved in the `outputs/` folder (e.g., `pca_scatterplot.png`, `heatmap.png`).
    - Cluster analysis results printed in the notebook.
-
-**Note:** Ensure the dataset (`survey.csv`) is in the `data/` folder before running the notebook.
-
 ---
 
 ## Project Structure
 ```
 ├── data/
-│   └── survey.csv              # Dataset (place here after downloading)
+│   └── mental-heath-in-tech-2016_20161114.csv              # Dataset 
 ├── notebooks/
-│   └── main.ipynb             # Main Jupyter Notebook with all code
+│   └── mental_health_case_study_KushTrip.ipynb             # Main Jupyter Notebook with all code
 ├── outputs/
 │   └── [visualizations]       # Generated plots (e.g., pca_scatterplot.png)
-├── requirements.txt           # List of Python dependencies
 └── README.md                  # This file
 ```
 
